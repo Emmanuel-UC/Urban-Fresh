@@ -106,4 +106,3 @@ const Snacks = () => {
 };
 
 export default Snacks;
-export default Snacks;
