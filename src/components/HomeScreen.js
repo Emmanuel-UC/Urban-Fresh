@@ -95,7 +95,7 @@ function HomeScreen(){
  <Grid container spacing={2} display="flex">
  
 {productCards.map((cards,i) => (
-    <Grid item xl={2}>
+    <Grid key={i} item xl={2}>
      <Card sx={{ maxWidth: 350 }}>
       <CardActionArea component = {ReactLink}  to ={productPaths[i]}>
         <CardMedia
